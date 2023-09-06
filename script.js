@@ -8,12 +8,3 @@ function displayTasks() {
     taskList.innerHTML += "<li>" + task[i] + "</li>";
   }
 }
-
-function addTask() {
-  var taskInput = document.getElementById("taskInput");
-  var newTask = taskInput.value;
-  tasks.push("newTask");
-  displayTask();
-}
-
-displayTask();
